@@ -9,8 +9,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Puesta a punto del proyecto
  Para instalar las dependencias necesarias e iniciar el servidor de mocks
  
-  > npm install
-  > npm run mock:server
+  npm install
+  npm run mock:server
 
 ## Development server
 
