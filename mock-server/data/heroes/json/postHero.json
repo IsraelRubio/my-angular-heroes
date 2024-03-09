@@ -1,0 +1,11 @@
+{
+    "hero": {
+        "id": 1,
+        "name": "Bruce Wayne",
+        "alias": "Batman",
+        "power": "Rico",
+        "origin": "No fue al psiquiatra",
+        "alignment": "Bueno",
+        "age": 40
+    }
+}

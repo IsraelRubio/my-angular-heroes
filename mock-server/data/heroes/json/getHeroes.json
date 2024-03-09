@@ -1,0 +1,139 @@
+{
+    "heroes": [
+        {
+            "id": 1,
+            "name": "Bruce Wayne",
+            "alias": "Batman",
+            "power": "Rico",
+            "origin": "No fue al psiquiatra",
+            "alignment": "Bueno",
+            "age": 40
+         },
+         {
+            "id": 2,
+            "name": "Peter Parker",
+            "alias": "Spider-Man",
+            "power": "Agilidad",
+            "origin": "Mordido por una araña",
+            "alignment": "Bueno",
+            "age": 16
+         },
+         {
+            "id": 3,
+            "name": "Clark Kent",
+            "alias": "Superman",
+            "power": "Fuerza sobrehumana",
+            "origin": "Planeta Krypton",
+            "alignment": "Bueno",
+            "age": 47
+         },
+         {
+            "id": 4,
+            "name": "Tony Stark",
+            "alias": "Iron Man",
+            "power": "Armadura de alta tecnología",
+            "origin": "Accidente de laboratorio",
+            "alignment": "Bueno",
+            "age": 49
+         },
+         {
+            "id": 5,
+            "name": "Steve Rogers",
+            "alias": "Captain America",
+            "power": "Fuerza sobrehumana",
+            "origin": "Sérum del supersoldado",
+            "alignment": "Bueno",
+            "age": 160
+         },
+         {
+            "id": 6,
+            "name": "Natasha Romanoff",
+            "alias": "Black Widow",
+            "power": "Agilidad, habilidades de combate",
+            "origin": "Espía rusa",
+            "alignment": "Bueno",
+            "age": 43
+         },
+         {
+            "id": 7,
+            "name": "Wanda Maximoff",
+            "alias": "Scarlet Witch",
+            "power": "Manipulación de la magia",
+            "origin": "Hija de la Bruja Escarlata",
+            "alignment": "Neutral",
+            "age": 28
+         },
+         {
+            "id": 8,
+            "name": "Thor Odinson",
+            "alias": "Thor",
+            "power": "Fuerza sobrehumana, martillo Mjolnir",
+            "origin": "Dios nórdico",
+            "alignment": "Bueno",
+            "age": 3200
+         },
+         {
+            "id": 9,
+            "name": "Hulk",
+            "alias": "Hulk",
+            "power": "Fuerza sobrehumana",
+            "origin": "Exposición a radiación gamma",
+            "alignment": "Bueno",
+            "age": 34
+         },
+         {
+            "id": 10,
+            "name": "Nick Fury",
+            "alias": "Nick Fury",
+            "power": "Estratega, conexiones",
+            "origin": "Agente de S.H.I.E.L.D.",
+            "alignment": "Bueno",
+            "age": 62
+         },
+         {
+            "id": 11,
+            "name": "Falcon",
+            "alias": "Falcon",
+            "power": "Habilidades de combate, piloto",
+            "origin": "Ex-mercenario",
+            "alignment": "Bueno",
+            "age": 44
+         },
+         {
+            "id": 12,
+            "name": "War Machine",
+            "alias": "War Machine",
+            "power": "Armadura de alta tecnología",
+            "origin": "Ingeniero",
+            "alignment": "Bueno",
+            "age": 48
+         },
+         {
+            "id": 13,
+            "name": "Vision",
+            "alias": "Vision",
+            "power": "Inteligencia artificial",
+            "origin": "Proyecto Visión",
+            "alignment": "Bueno",
+            "age": 31
+         },
+         {
+            "id": 14,
+            "name": "Scarlet Panther",
+            "alias": "Scarlet Panther",
+            "power": "Fuerza sobrehumana, habilidades de combate",
+            "origin": "Reino de Wakanda",
+            "alignment": "Bueno",
+            "age": 24
+         },
+         {
+            "id": 15,
+            "name": "Quicksilver",
+            "alias": "Quicksilver",
+            "power": "Velocidad sobrehumana",
+            "origin": "Hijo de Magneto",
+            "alignment": "Neutral",
+            "age": 36
+         }
+    ]
+}

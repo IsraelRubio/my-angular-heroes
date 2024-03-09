@@ -1,0 +1,30 @@
+table {
+  width: 100%;
+}
+
+td, th {
+  width: 14%;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.mat-column-actions {
+  width: 10%;
+}
+
+.element-row:not(.expanded) {
+  cursor: pointer;
+}
+
+.element-row:not(.expanded):hover {
+  background: #f5f5f5;
+}
+
+.add-button {
+  float: right;
+  margin: 16px;
+  padding: 0 48px;
+}

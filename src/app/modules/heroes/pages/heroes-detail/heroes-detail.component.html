@@ -1,0 +1,61 @@
+<header class="header">
+    <h2>Heroes - {{ subTitle }}</h2>
+    
+    <button mat-raised-button color="accent" (click)="sendHero()" [disabled]="form.invalid" *ngIf="!isDetail" class="save-button">
+        SAVE
+    </button>
+</header>
+
+<form [formGroup]="form" class="form">
+
+    <mat-form-field class="form-column">
+        <mat-label>Name</mat-label>
+        <input matInput type="text" formControlName="name">
+          <mat-error *ngIf="form.get('name')?.hasError('required')">
+            Name is <strong>required</strong>
+          </mat-error>
+    </mat-form-field>
+
+    <mat-form-field class="form-column">
+        <mat-label>Alias</mat-label>
+        <input matInput type="text" formControlName="alias">
+        <mat-error *ngIf="form.get('alias')?.hasError('required')">
+            Alias is <strong>required</strong>
+        </mat-error>
+    </mat-form-field>
+
+    <mat-form-field class="form-column">
+        <mat-label>Power</mat-label>
+        <input matInput type="text" formControlName="power">
+        <mat-error *ngIf="form.get('power')?.hasError('required')">
+            Power is <strong>required</strong>
+        </mat-error>
+    </mat-form-field>
+
+    <mat-form-field class="form-column">
+        <mat-label>Origin</mat-label>
+        <input matInput type="text" formControlName="origin">
+        <mat-error *ngIf="form.get('origin')?.hasError('required')">
+            Origin is <strong>required</strong>
+        </mat-error>
+    </mat-form-field>
+
+    <mat-form-field class="form-column">
+        <mat-label>Alignment</mat-label>
+        <input matInput type="text" formControlName="alignment">
+        <mat-error *ngIf="form.get('alignment')?.hasError('required')">
+            Alignment is <strong>required</strong>
+        </mat-error>
+    </mat-form-field>
+
+    <mat-form-field class="form-column">
+        <mat-label>Age</mat-label>
+        <input matInput type="number" formControlName="age">
+        <mat-error *ngIf="form.get('age')?.hasError('required')">
+            Age is <strong>required</strong>
+        </mat-error>
+        <mat-error *ngIf="form.get('age')?.hasError('min')">
+            Minimum age <strong>5</strong>
+        </mat-error>
+    </mat-form-field>
+</form>

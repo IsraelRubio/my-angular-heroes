@@ -1,0 +1,13 @@
+<ng-container *ngIf="(loadingService.isLoading | async)">
+    <div class="spinner-container">
+        <div class="spinner-loader">
+            <div class="loader">
+                <img 
+                alt="logo"
+                class="loading-logo" 
+                src="../assets/img/angular_logo.png">
+            </div>
+        </div>
+    </div>
+</ng-container>
+<router-outlet></router-outlet>
